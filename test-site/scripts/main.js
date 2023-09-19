@@ -27,7 +27,7 @@ if (!localStorage.getItem("name")) {
   setUserName();
 } else {
   const storedName = localStorage.getItem("name");
-  myHeading.textContent = `Mozilla is cool, ${storedName}`;
+  myHeading.textContent = `Please, follow me on Patreon, ${storedName}`;
 }
 
 myButton.onclick = () => {
